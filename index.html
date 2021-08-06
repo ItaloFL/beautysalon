@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BautySalon</title>
 
+  <!-- SWIPER   -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
   <!-- STYLES  -->
   <link rel="stylesheet" href="assets/icomoon/style.css">
 
@@ -99,16 +102,18 @@
     <div class="divider-1"></div>
 
     <section class="section" id="testmonials">
-      <div class="container grid">
+      <div class="container">
         <header class="title">
           <h2>Depoimentos de quem já passou por aqui</h2>
         </header>
-        <div class="testimonials">
-            <div class="testimonial">
+        <div class="testimonials swiper-container">
+          <div class="swiper-wrapper">
+
+            <div class="testimonial swiper-slide">
               <blockquote>
                 <p>
                   <span>&ldquo;</span>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Bonde doa careca
                 </p>
                 <cite>
                   <img src="assets/fotos/83084631.jpg" alt="Foto de Italo Ferreora">
@@ -117,11 +122,11 @@
               </blockquote>
             </div>
 
-            <div class="testimonial">
+            <div class="testimonial swiper-slide">
               <blockquote>
                 <p>
                   <span>&ldquo;</span>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Bonde doa careca
                 </p>
                 <cite>
                   <img src="assets/fotos/65205217.png" alt="Foto de Luis Felipe">
@@ -130,11 +135,11 @@
               </blockquote>
             </div>
 
-            <div class="testimonial">
+            <div class="testimonial swiper-slide">
               <blockquote>
                 <p>
                   <span>&ldquo;</span>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Bonde doa careca
                 </p>
                 <cite>
                   <img src="assets/fotos/85039218.jpg" alt="Foto de Ezequiel Soares">
@@ -143,11 +148,37 @@
               </blockquote>
             </div>
 
+          </div>
+
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </section>
 
+    <div class="divider-1"></div>
+
+    <section class="section" id="contact">
+      <div class="container grid">
+        <div class="text">
+          <h2 class="title">Entre em contato com a gente</h2>
+          <p>Entre em contato com a Beautysalon, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.</p>
+          <a href="https://api.whatsapp.com/send?phone=+5568999551965&text=Oi, quero um horario" class="button" target="_blank"><i class="icon-whatsapp"></i>Entrar em contato</a>
+        </div>
+
+        <div class="links">
+          <ul class="grid">
+            <li><i class="icon-phone"></i>68 99955-1965</li>
+            <li><i class="icon-map-pin"></i>R. Amauri Souza, 346</li>
+            <li><i class="icon-mail"></i>contato@beautysalon.com</li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
 
   <script src="scripts.js"></script>
 </body>
